@@ -45,7 +45,6 @@ for file in files:
         moving_directory(word)
     elif file.endswith(".jpg") or file.endswith(".jpeg") or file.endswith(".png"):
         moving_directory(img)
-
     elif file.endswith(".mp4") or file.endswith(".mkv"):
         moving_directory(video)
     elif file.endswith(".mp3") or file.endswith(".wav"):
