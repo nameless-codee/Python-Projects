@@ -21,5 +21,6 @@ for file in files:
                 # Overwrite the original file
                 filtered_image.save(file_path)
                 print(f"✅ Edited {file}")
+                
         except Exception as e:
             print(f"❌ Error processing {file}: {e}")
